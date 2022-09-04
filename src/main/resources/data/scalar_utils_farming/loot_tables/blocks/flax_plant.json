@@ -16,10 +16,10 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "scalar_utils_farming:flax",
+                  "block": "scalar_utils_farming:flax_plant",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "age": "3"
+                    "age": "7"
                   }
                 }
               ],
@@ -38,10 +38,10 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "name": "scalar_utils_farming:flax",
+          "block": "scalar_utils_farming:flax_plant",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "3"
+            "age": "7"
           }
         }
       ],

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "scalar_utils_farming:rice"
+          "name": "scalar_utils_farming:ender_spores"
         }
       ],
       "rolls": 1.0
@@ -20,7 +20,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "scalar_utils_farming:rice_plant",
+          "block": "scalar_utils_farming:ender_spores_plant",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "2"
@@ -41,7 +41,7 @@
               }
             }
           ],
-          "name": "scalar_utils_farming:rice"
+          "name": "scalar_utils_farming:ender_spores"
         }
       ],
       "rolls": 1.0
