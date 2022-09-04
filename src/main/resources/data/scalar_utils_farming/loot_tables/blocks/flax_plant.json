@@ -19,7 +19,7 @@
                   "block": "scalar_utils_farming:flax",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "age": "7"
+                    "age": "3"
                   }
                 }
               ],
@@ -27,7 +27,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "scalar_utils_farming:flax-seeds"
+              "name": "scalar_utils_farming:flax_seeds"
             }
           ]
         }
@@ -41,7 +41,7 @@
           "name": "scalar_utils_farming:flax",
           "condition": "minecraft:block_state_property",
           "properties": {
-            "age": "7"
+            "age": "3"
           }
         }
       ],
