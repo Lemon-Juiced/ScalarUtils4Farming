@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "scalar_utils_farming:flax_seeds"
+      "item": "scalar_utils_farming:flax"
     }
   ],
   "result": {

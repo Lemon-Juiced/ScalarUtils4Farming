@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_farming:strawberry"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_farming:strawberry_seeds"
+  }
+}
