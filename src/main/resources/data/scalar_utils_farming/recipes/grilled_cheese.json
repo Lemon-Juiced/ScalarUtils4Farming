@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_farming:toast"
+    },
+    {
+      "item": "scalar_utils_farming:toast"
+    },
+    {
+      "item": "scalar_utils_farming:butter"
+    },
+    {
+      "item": "scalar_utils_farming:cheese"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_farming:grilled_cheese"
+  }
+}

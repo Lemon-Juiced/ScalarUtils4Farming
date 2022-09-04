@@ -8,6 +8,7 @@ import lemon_juice.scalar_utils_farming.item.custom_items.consumables.HotCocoaIt
 import lemon_juice.scalar_utils_farming.item.custom_items.consumables.ModFoods;
 import lemon_juice.scalar_utils_farming.item.custom_items.tools.CraftingToolItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,6 +23,11 @@ public class ModItems {
     public static final RegistryObject<Item> ENDER_SPORES = ITEMS.register("ender_spores", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Flax
     public static final RegistryObject<Item> FLAX = ITEMS.register("flax", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    //Rice
+    public static final RegistryObject<Item> RICE = ITEMS.register("rice", () -> new Item(new Item.Properties().food(ModFoods.RICE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    //Strawberry
+    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
 
     /* Custom Tools */
     public static final RegistryObject<Item> PAN = ITEMS.register("pan", () -> new CraftingToolItem(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));

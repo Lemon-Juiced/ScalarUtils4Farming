@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_farming:cheese"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:crops/strawberry"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_farming:strawberry_cheesecake",
+    "count": 1
+  }
+}

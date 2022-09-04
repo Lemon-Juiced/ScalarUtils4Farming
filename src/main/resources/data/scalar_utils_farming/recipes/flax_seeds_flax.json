@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:crops/flax"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_farming:flax_seeds"
+  }
+}

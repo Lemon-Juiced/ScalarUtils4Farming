@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "tag": "forge:crops/strawberry"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_farming:vanilla_ice_cream",
+    "count": 1
+  }
+}
