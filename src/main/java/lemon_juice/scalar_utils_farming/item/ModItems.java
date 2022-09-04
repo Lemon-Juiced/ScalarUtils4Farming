@@ -13,6 +13,8 @@ public class ModItems {
 
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ScalarUtilsFarming.MOD_ID);
 
+    //Non-Edible Crop Drops
+    public static final RegistryObject<Item> ENDER_SPORES = ITEMS.register("ender_spores", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> FLAX = ITEMS.register("flax", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     public static void register(IEventBus eventBus){
