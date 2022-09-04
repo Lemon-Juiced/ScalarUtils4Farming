@@ -1,6 +1,10 @@
 package lemon_juice.scalar_utils_farming.block;
 
 import lemon_juice.scalar_utils_farming.ScalarUtilsFarming;
+import lemon_juice.scalar_utils_farming.block.crops.EnderSporesPlantBlock;
+import lemon_juice.scalar_utils_farming.block.crops.FlaxPlantBlock;
+import lemon_juice.scalar_utils_farming.block.crops.RicePlantBlock;
+import lemon_juice.scalar_utils_farming.block.crops.StrawberryPlantBlock;
 import lemon_juice.scalar_utils_farming.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;

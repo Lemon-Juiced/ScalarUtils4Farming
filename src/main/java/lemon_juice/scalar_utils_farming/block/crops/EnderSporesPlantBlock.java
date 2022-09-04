@@ -9,10 +9,10 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
-public class EnderSporePlantBlock extends CropBlock {
+public class EnderSporesPlantBlock extends CropBlock {
     public static final IntegerProperty AGE = BlockStateProperties.AGE_7;
 
-    public EnderSporePlantBlock(Properties properties) {
+    public EnderSporesPlantBlock(Properties properties) {
         super(properties);
     }
 
