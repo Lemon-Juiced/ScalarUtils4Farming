@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "scalar_utils_farming:block/ender_spores_stage0" },
+    "age=1": { "model": "scalar_utils_farming:block/ender_spores_stage1" },
+    "age=2": { "model": "scalar_utils_farming:block/ender_spores_stage2" },
+    "age=3": { "model": "scalar_utils_farming:block/ender_spores_stage3" },
+    "age=4": { "model": "scalar_utils_farming:block/ender_spores_stage4" },
+    "age=5": { "model": "scalar_utils_farming:block/ender_spores_stage5" },
+    "age=6": { "model": "scalar_utils_farming:block/ender_spores_stage6" },
+    "age=7": { "model": "scalar_utils_farming:block/ender_spores_stage7" }
+  }
+}

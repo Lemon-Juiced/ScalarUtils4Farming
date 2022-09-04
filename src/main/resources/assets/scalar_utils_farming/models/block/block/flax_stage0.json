@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "scalar_utils_farming:block/flax_stage0"
+  }
+}
