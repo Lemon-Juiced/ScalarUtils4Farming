@@ -1,6 +1,7 @@
 package lemon_juice.scalar_utils_farming;
 
 import com.mojang.logging.LogUtils;
+import lemon_juice.scalar_utils_farming.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -17,6 +18,8 @@ public class ScalarUtilsFarming {
 
     public ScalarUtilsFarming() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
