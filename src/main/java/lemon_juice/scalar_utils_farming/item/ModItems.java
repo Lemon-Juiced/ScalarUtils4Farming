@@ -2,6 +2,7 @@ package lemon_juice.scalar_utils_farming.item;
 
 import lemon_juice.scalar_utils_farming.ModCreativeModeTab;
 import lemon_juice.scalar_utils_farming.ScalarUtilsFarming;
+import lemon_juice.scalar_utils_farming.block.ModBlocks;
 import lemon_juice.scalar_utils_farming.item.custom_items.consumables.ChocolateMilkItem;
 import lemon_juice.scalar_utils_farming.item.custom_items.consumables.FreshMilkItem;
 import lemon_juice.scalar_utils_farming.item.custom_items.consumables.HotCocoaItem;
@@ -20,14 +21,15 @@ public class ModItems {
 
     /* Crops */
     //Ender Spores
-    public static final RegistryObject<Item> ENDER_SPORES = ITEMS.register("ender_spores", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> ENDER_SPORES = ITEMS.register("ender_spores", () -> new ItemNameBlockItem(ModBlocks.ENDER_SPORES_PLANT.get(), new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Flax
     public static final RegistryObject<Item> FLAX = ITEMS.register("flax", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> FLAX_SEEDS = ITEMS.register("flax_seeds", () -> new ItemNameBlockItem(ModBlocks.FLAX_PLANT.get(), new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Rice
-    public static final RegistryObject<Item> RICE = ITEMS.register("rice", () -> new Item(new Item.Properties().food(ModFoods.RICE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> RICE = ITEMS.register("rice", () -> new ItemNameBlockItem(ModBlocks.RICE_PLANT.get(), new Item.Properties().food(ModFoods.RICE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Strawberry
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
-
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds", () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_PLANT.get(), new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
     /* Custom Tools */
     public static final RegistryObject<Item> PAN = ITEMS.register("pan", () -> new CraftingToolItem(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
