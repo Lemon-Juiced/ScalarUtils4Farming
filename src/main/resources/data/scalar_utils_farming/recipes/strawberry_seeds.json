@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "scalar_utils_farming:mutandis"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_farming:strawberry_seeds",
+    "count": 1
+  }
+}

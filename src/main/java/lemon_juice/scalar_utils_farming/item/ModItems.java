@@ -59,6 +59,9 @@ public class ModItems {
     //Yogurt
     public static final RegistryObject<Item> YOGURT = ITEMS.register("yogurt", () -> new Item(new Item.Properties().food(ModFoods.YOGURT).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
+    //Mutandis
+    public static final RegistryObject<Item> MUTANDIS = ITEMS.register("mutandis", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "scalar_utils_farming:mutandis"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_farming:flax_seeds",
+    "count": 1
+  }
+}
