@@ -2,5 +2,6 @@
   "parent": "block/crop",
   "textures": {
     "crop": "scalar_utils_farming:block/rice_stage2"
-  }
+  },
+  "render_type": "cutout"
 }

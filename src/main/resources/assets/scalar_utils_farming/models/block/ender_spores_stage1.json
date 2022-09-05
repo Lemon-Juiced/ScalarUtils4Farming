@@ -2,5 +2,6 @@
   "parent": "block/crop",
   "textures": {
     "crop": "scalar_utils_farming:block/ender_spores_stage1"
-  }
+  },
+  "render_type": "cutout"
 }

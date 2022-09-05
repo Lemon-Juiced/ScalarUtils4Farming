@@ -2,5 +2,6 @@
   "parent": "block/crop",
   "textures": {
     "crop": "scalar_utils_farming:block/flax_stage3"
-  }
+  },
+  "render_type": "cutout"
 }
