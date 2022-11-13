@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "block_state_property",
+      "block": "minecraft:grass"
+    }
+  ],
+  "item": "scalar_utils_farming:ender_spores",
+  "type": "scalar_utils_farming:add_item"
+}

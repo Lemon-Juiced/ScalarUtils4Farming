@@ -3,6 +3,7 @@ package lemon_juice.scalar_utils_farming;
 import com.mojang.logging.LogUtils;
 import lemon_juice.scalar_utils_farming.block.ModBlocks;
 import lemon_juice.scalar_utils_farming.item.ModItems;
+import lemon_juice.scalar_utils_farming.loot.ModLootModifiers;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,6 +25,7 @@ public class ScalarUtilsFarming {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
