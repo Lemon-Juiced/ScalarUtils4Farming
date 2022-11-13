@@ -44,6 +44,7 @@ public class ModItems {
     public static final RegistryObject<Item> TOAST = ITEMS.register("toast", () -> new Item(new Item.Properties().food(ModFoods.TOAST).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Cheesecakes
     public static final RegistryObject<Item> CHEESECAKE = ITEMS.register("cheesecake", () -> new Item(new Item.Properties().food(ModFoods.CHEESECAKE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> CHOCOLATE_CHEESECAKE = ITEMS.register("chocolate_cheesecake", () -> new Item(new Item.Properties().food(ModFoods.CHOCOLATE_CHEESECAKE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> STRAWBERRY_CHEESECAKE = ITEMS.register("strawberry_cheesecake", () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY_CHEESECAKE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Grilled Cheese
     public static final RegistryObject<Item> GRILLED_CHEESE = ITEMS.register("grilled_cheese", () -> new Item(new Item.Properties().food(ModFoods.GRILLED_CHEESE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
