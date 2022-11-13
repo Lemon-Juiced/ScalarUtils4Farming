@@ -23,5 +23,5 @@
   "item.scalar_utils_farming.vanilla_ice_cream": "Vanilla Ice Cream",
   "item.scalar_utils_farming.yogurt": "Yogurt",
 
-  "itemGroup.scalar_utils_tab": "Scalar Utils 4: Farming"
+  "itemGroup.farmingTab": "Scalar Utils 4: Farming"
 }
