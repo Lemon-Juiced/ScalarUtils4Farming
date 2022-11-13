@@ -1,6 +1,6 @@
 package lemon_juice.scalar_utils_farming.item;
 
-import lemon_juice.scalar_utils_farming.ModCreativeModeTab;
+import lemon_juice.scalar_utils_farming.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_farming.ScalarUtilsFarming;
 import lemon_juice.scalar_utils_farming.block.ModBlocks;
 import lemon_juice.scalar_utils_farming.item.custom_items.consumables.ChocolateMilkItem;
