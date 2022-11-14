@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:milk_bucket",
-    "scalar_utils_farming:fresh_milk"
+    "scalar_utils_farming:fresh_milk",
+    "scalar_utils_farming:soy_milk"
   ]
 }

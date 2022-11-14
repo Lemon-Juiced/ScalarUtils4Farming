@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_farming:corn"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_farming:corn_seeds"
+  }
+}

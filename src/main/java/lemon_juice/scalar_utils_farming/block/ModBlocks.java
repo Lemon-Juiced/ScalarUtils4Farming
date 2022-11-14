@@ -1,10 +1,7 @@
 package lemon_juice.scalar_utils_farming.block;
 
 import lemon_juice.scalar_utils_farming.ScalarUtilsFarming;
-import lemon_juice.scalar_utils_farming.block.crops.EnderSporesPlantBlock;
-import lemon_juice.scalar_utils_farming.block.crops.FlaxPlantBlock;
-import lemon_juice.scalar_utils_farming.block.crops.RicePlantBlock;
-import lemon_juice.scalar_utils_farming.block.crops.StrawberryPlantBlock;
+import lemon_juice.scalar_utils_farming.block.crops.*;
 import lemon_juice.scalar_utils_farming.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,10 +20,13 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ScalarUtilsFarming.MOD_ID);
 
     //Crops
+    public static final RegistryObject<Block> CORN_PLANT = registerBlockWithoutBlockItem("corn_plant", () -> new CornPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> ENDER_SPORES_PLANT = registerBlockWithoutBlockItem("ender_spores_plant", () -> new EnderSporesPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> FLAX_PLANT = registerBlockWithoutBlockItem("flax_plant", () -> new FlaxPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> RICE_PLANT = registerBlockWithoutBlockItem("rice_plant", () -> new RicePlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+    public static final RegistryObject<Block> SOYBEAN_PLANT = registerBlockWithoutBlockItem("soybean_plant", () -> new SoybeanPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> STRAWBERRY_PLANT = registerBlockWithoutBlockItem("strawberry_plant", () -> new StrawberryPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+    public static final RegistryObject<Block> TOMATO_PLANT = registerBlockWithoutBlockItem("tomato_plant", () -> new TomatoPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
     /* Registry Methods */
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

@@ -1,9 +1,12 @@
 {
   "replace": false,
   "entries": [
+    "scalar_utils_farming:corn_seeds_from_grass",
     "scalar_utils_farming:ender_spores_from_grass",
     "scalar_utils_farming:flax_seeds_from_grass",
     "scalar_utils_farming:rice_from_grass",
-    "scalar_utils_farming:strawberry_seeds_from_grass"
+    "scalar_utils_farming:soybean_seeds_from_grass",
+    "scalar_utils_farming:strawberry_seeds_from_grass",
+    "scalar_utils_farming:tomato_seeds_from_grass"
   ]
 }
