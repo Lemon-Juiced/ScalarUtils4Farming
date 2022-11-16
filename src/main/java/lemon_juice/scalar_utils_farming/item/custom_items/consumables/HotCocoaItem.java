@@ -2,6 +2,7 @@ package lemon_juice.scalar_utils_farming.item.custom_items.consumables;
 
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -38,5 +39,10 @@ public class HotCocoaItem extends MilkBucketItem {
         }
 
         return pStack.isEmpty() ? new ItemStack(Items.AIR) : pStack;
+    }
+
+    @Override
+    public SoundEvent getEatingSound() {
+        return super.getDrinkingSound();
     }
 }
