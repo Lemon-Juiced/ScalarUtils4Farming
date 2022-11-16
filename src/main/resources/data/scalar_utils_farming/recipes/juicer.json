@@ -1,0 +1,20 @@
+
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "S"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_button"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_farming:juicer",
+    "count": 1
+  }
+}

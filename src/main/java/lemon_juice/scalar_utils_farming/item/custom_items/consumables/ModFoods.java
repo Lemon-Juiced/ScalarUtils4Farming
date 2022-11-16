@@ -10,8 +10,10 @@ public class ModFoods {
     public static final FoodProperties CORN = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.4F).build();
     public static final FoodProperties GRILLED_CHEESE = (new FoodProperties.Builder()).nutrition(12).saturationMod(0.9F).build();
     public static final FoodProperties ICE_CREAM = stew(4).build();
+    public static final FoodProperties JUICE = (new FoodProperties.Builder()).nutrition(4).saturationMod(0.4F).build();
     public static final FoodProperties RICE = (new FoodProperties.Builder()).fast().nutrition(1).saturationMod(0.2F).build();
     public static final FoodProperties RICE_BREAD = (new FoodProperties.Builder()).nutrition(5).saturationMod(0.6F).build();
+    public static final FoodProperties SMOOTHIE = (new FoodProperties.Builder()).nutrition(5).saturationMod(0.5F).build();
     public static final FoodProperties SOYBEAN = (new FoodProperties.Builder()).fast().nutrition(1).saturationMod(0.2F).build();
     public static final FoodProperties STRAWBERRY = (new FoodProperties.Builder()).fast().nutrition(1).saturationMod(0.2F).build();
     public static final FoodProperties STRAWBERRY_CHEESECAKE = (new FoodProperties.Builder()).nutrition(9).saturationMod(0.5F).build();

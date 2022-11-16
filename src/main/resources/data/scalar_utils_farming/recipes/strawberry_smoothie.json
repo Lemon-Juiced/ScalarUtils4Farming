@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_farming:juicer"
+    },
+    {
+      "item": "scalar_utils_farming:strawberry"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_farming:strawberry_smoothie",
+    "count": 1
+  }
+}

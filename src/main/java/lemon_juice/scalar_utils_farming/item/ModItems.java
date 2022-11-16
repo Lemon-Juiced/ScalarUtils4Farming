@@ -42,6 +42,7 @@ public class ModItems {
 
 
     /* Custom Tools */
+    public static final RegistryObject<Item> JUICER = ITEMS.register("juicer", () -> new CraftingToolItem(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> PAN = ITEMS.register("pan", () -> new CraftingToolItem(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> POT = ITEMS.register("pot", () -> new CraftingToolItem(new Item.Properties().stacksTo(1).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
@@ -63,11 +64,16 @@ public class ModItems {
     public static final RegistryObject<Item> NEOPOLITAN_ICE_CREAM = ITEMS.register("neopolitan_ice_cream", () -> new Item(new Item.Properties().food(ModFoods.ICE_CREAM).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM = ITEMS.register("strawberry_ice_cream", () -> new Item(new Item.Properties().food(ModFoods.ICE_CREAM).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> VANILLA_ICE_CREAM = ITEMS.register("vanilla_ice_cream", () -> new Item(new Item.Properties().food(ModFoods.ICE_CREAM).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    //Juices
+    public static final RegistryObject<Item> STRAWBERRY_JUICE = ITEMS.register("strawberry_juice", () -> new Item(new Item.Properties().food(ModFoods.JUICE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    public static final RegistryObject<Item> TOMATO_JUICE = ITEMS.register("tomato_juice", () -> new Item(new Item.Properties().food(ModFoods.JUICE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Milks
     public static final RegistryObject<Item> CHOCOLATE_MILK = ITEMS.register("chocolate_milk", () -> new ChocolateMilkItem(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> FRESH_MILK = ITEMS.register("fresh_milk", () -> new FreshMilkItem(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> HOT_COCOA = ITEMS.register("hot_cocoa", () -> new HotCocoaItem(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     public static final RegistryObject<Item> SOY_MILK = ITEMS.register("soy_milk", () -> new FreshMilkItem(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+    //Smoothie
+    public static final RegistryObject<Item> STRAWBERRY_SMOOTHIE = ITEMS.register("strawberry_smoothie", () -> new Item(new Item.Properties().food(ModFoods.SMOOTHIE).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
     //Yogurt
     public static final RegistryObject<Item> YOGURT = ITEMS.register("yogurt", () -> new Item(new Item.Properties().food(ModFoods.YOGURT).tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
