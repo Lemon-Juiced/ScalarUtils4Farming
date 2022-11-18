@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#_#",
+    "# #",
+    "#_#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_log"
+    },
+    "_": {
+      "item": "minecraft:spruce_slab"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_farming:spruce_fermentation_barrel",
+    "count": 1
+  }
+}

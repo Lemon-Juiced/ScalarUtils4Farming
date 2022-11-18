@@ -2,10 +2,15 @@ package lemon_juice.scalar_utils_farming;
 
 import com.mojang.logging.LogUtils;
 import lemon_juice.scalar_utils_farming.block.ModBlocks;
+import lemon_juice.scalar_utils_farming.block.entity.ModBlockEntities;
 import lemon_juice.scalar_utils_farming.item.ModItems;
 import lemon_juice.scalar_utils_farming.loot.ModLootModifiers;
+import lemon_juice.scalar_utils_farming.screen.ModMenuTypes;
+import lemon_juice.scalar_utils_farming.screen.OakFermentationBarrelScreen;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.MenuProvider;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -27,6 +32,9 @@ public class ScalarUtilsFarming {
         ModBlocks.register(modEventBus);
         ModLootModifiers.register(modEventBus);
 
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -39,6 +47,7 @@ public class ScalarUtilsFarming {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            MenuScreens.register(ModMenuTypes.OAK_FERMENTATION_BARREL_MENU.get(), OakFermentationBarrelScreen::new);
         }
     }
 }

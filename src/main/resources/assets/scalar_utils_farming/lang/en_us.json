@@ -14,6 +14,7 @@
   "item.scalar_utils_farming.grilled_cheese": "Grilled Cheese",
   "item.scalar_utils_farming.hot_cocoa": "Hot Cocoa",
   "item.scalar_utils_farming.juicer": "Juicer",
+  "item.scalar_utils_farming.mead": "Mead",
   "item.scalar_utils_farming.neopolitan_ice_cream": "Neopolitan Ice Cream",
   "item.scalar_utils_farming.pan": "Pan",
   "item.scalar_utils_farming.pot": "Pot",
@@ -35,5 +36,17 @@
   "item.scalar_utils_farming.vanilla_ice_cream": "Vanilla Ice Cream",
   "item.scalar_utils_farming.yogurt": "Yogurt",
 
-  "itemGroup.farmingTab": "Scalar Utils 4: Farming"
+  "block.scalar_utils_farming.acacia_fermentation_barrel": "Acacia Fermentation Barrel",
+  "block.scalar_utils_farming.birch_fermentation_barrel": "Birch Fermentation Barrel",
+  "block.scalar_utils_farming.crimson_fermentation_barrel": "Crimson Fermentation Barrel",
+  "block.scalar_utils_farming.dark_oak_fermentation_barrel": "Dark Oak Fermentation Barrel",
+  "block.scalar_utils_farming.jungle_fermentation_barrel": "Jungle Fermentation Barrel",
+  "block.scalar_utils_farming.mangrove_fermentation_barrel": "Mangrove Fermentation Barrel",
+  "block.scalar_utils_farming.oak_fermentation_barrel": "Oak Fermentation Barrel",
+  "block.scalar_utils_farming.spruce_fermentation_barrel": "Spruce Fermentation Barrel",
+  "block.scalar_utils_farming.warped_fermentation_barrel": "Warped Fermentation Barrel",
+
+  "itemGroup.cropsTab": "Scalar Utils 4: Farming (Crops)",
+  "itemGroup.fermentationTab": "Scalar Utils 4: Farming (Fermentation)"
+
 }

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "scalar_utils_farming:acacia_fermentation_barrel",
+    "scalar_utils_farming:birch_fermentation_barrel",
+    "scalar_utils_farming:crimson_fermentation_barrel",
+    "scalar_utils_farming:dark_oak_fermentation_barrel",
+    "scalar_utils_farming:jungle_fermentation_barrel",
+    "scalar_utils_farming:mangrove_fermentation_barrel",
+    "scalar_utils_farming:oak_fermentation_barrel",
+    "scalar_utils_farming:spruce_fermentation_barrel",
+    "scalar_utils_farming:warped_fermentation_barrel"
+  ]
+}

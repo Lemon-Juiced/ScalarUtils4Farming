@@ -2,6 +2,7 @@ package lemon_juice.scalar_utils_farming.block;
 
 import lemon_juice.scalar_utils_farming.ScalarUtilsFarming;
 import lemon_juice.scalar_utils_farming.block.crops.*;
+import lemon_juice.scalar_utils_farming.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_farming.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -27,6 +28,17 @@ public class ModBlocks {
     public static final RegistryObject<Block> SOYBEAN_PLANT = registerBlockWithoutBlockItem("soybean_plant", () -> new SoybeanPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> STRAWBERRY_PLANT = registerBlockWithoutBlockItem("strawberry_plant", () -> new StrawberryPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     public static final RegistryObject<Block> TOMATO_PLANT = registerBlockWithoutBlockItem("tomato_plant", () -> new TomatoPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
+
+    //Fermentation Barrels
+    public static final RegistryObject<Block> ACACIA_FERMENTATION_BARREL = registerBlock("acacia_fermentation_barrel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.ACACIA_LOG)), ModCreativeModeTab.FERMENTATION_TAB);
+    public static final RegistryObject<Block> BIRCH_FERMENTATION_BARREL = registerBlock("birch_fermentation_barrel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.BIRCH_LOG)), ModCreativeModeTab.FERMENTATION_TAB);
+    public static final RegistryObject<Block> CRIMSON_FERMENTATION_BARREL = registerBlock("crimson_fermentation_barrel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_HYPHAE)), ModCreativeModeTab.FERMENTATION_TAB);
+    public static final RegistryObject<Block> DARK_OAK_FERMENTATION_BARREL = registerBlock("dark_oak_fermentation_barrel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_LOG)), ModCreativeModeTab.FERMENTATION_TAB);
+    public static final RegistryObject<Block> JUNGLE_FERMENTATION_BARREL = registerBlock("jungle_fermentation_barrel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.JUNGLE_LOG)), ModCreativeModeTab.FERMENTATION_TAB);
+    public static final RegistryObject<Block> MANGROVE_FERMENTATION_BARREL = registerBlock("mangrove_fermentation_barrel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.MANGROVE_LOG)), ModCreativeModeTab.FERMENTATION_TAB);
+    public static final RegistryObject<Block> OAK_FERMENTATION_BARREL = registerBlock("oak_fermentation_barrel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LOG)), ModCreativeModeTab.FERMENTATION_TAB);
+    public static final RegistryObject<Block> SPRUCE_FERMENTATION_BARREL = registerBlock("spruce_fermentation_barrel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_LOG)), ModCreativeModeTab.FERMENTATION_TAB);
+    public static final RegistryObject<Block> WARPED_FERMENTATION_BARREL = registerBlock("warped_fermentation_barrel", () -> new Block(BlockBehaviour.Properties.copy(Blocks.WARPED_HYPHAE)), ModCreativeModeTab.FERMENTATION_TAB);
 
     /* Registry Methods */
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){

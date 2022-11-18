@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "end": "minecraft:block/acacia_planks",
+    "side": "minecraft:block/acacia_log"
+  }
+}
